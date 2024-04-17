@@ -7,18 +7,18 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Pick Pizzas",
+      text: "Discover the perfect pizza for you on the PizzaCraft app. From classic Margheritas to gourmet specialties, satisfaction is just a tap away!"
     },
     {
       image: ChooseMeals,
       title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      text: "Set your pizza frequency on the PizzaCraft app for personalized pizza inspiration!",
     },
     {
       image: DeliveryMeals,
       title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Order fresh, hot pizzas directly from the PizzaCraft app and enjoy doorstep delivery. Experience convenience and quality with every bite. Order now!",
     },
   ];
   return (
@@ -27,8 +27,8 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          PizzaCraft streamlines pizza ordering in three simple steps: browse nearby pizzerias, customize your order, and securely place it for delivery or pickup. With real-time tracking and exclusive deals,
+          PizzaCraft makes satisfying your pizza cravings effortless. Download now for the easiest way to order pizza!
         </p>
       </div>
       <div className="work-section-bottom">

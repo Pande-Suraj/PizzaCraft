@@ -15,16 +15,15 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Pizza Is An Essential Component Of A Well-Rounded Culinary Experience
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Pizza is incredibly versatile, serving as a canvas for a myriad of flavors and ingredients. From traditional combinations like Margherita or pepperoni to inventive gourmet toppings like barbecue chicken or truffle oil,
+          there's a pizza to satisfy every palate and dietary preference.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
-        </p>
+          Pizza has a unique ability to bring people together.
+       </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
           <button className="watch-video-button">
