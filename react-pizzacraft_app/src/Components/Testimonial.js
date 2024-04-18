@@ -9,15 +9,14 @@ const Testimonial = () => {
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          People rave about PizzaCraft for its easy ordering, personalized recommendations, 
+          accurate tracking, exclusive deals, and overall convenience.
         </p>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        "Love PizzaCraft! Easy ordering, personalized suggestions, accurate tracking, great deals. 5 stars!" 
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />

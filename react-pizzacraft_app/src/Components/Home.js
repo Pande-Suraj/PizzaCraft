@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
-import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
@@ -20,9 +21,10 @@ const Home = () => {
             Healthy switcher chefs do all the prep work, like peeding, chopping
             & marinating, so you can cook a fresh food.
           </p>
-          <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
-          </button>
+          {/* Link to the OrderPage component */}
+          <Link to="/order" className="secondary-button">
+            Order Now <FiArrowRight />
+          </Link>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />
