@@ -7,7 +7,7 @@ import Work from "./Components/Work";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import PizzaOrderForm from "./Components/PizzaOrderForm";
+
 
 const App = () => {
   return (
@@ -15,7 +15,6 @@ const App = () => {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/order" component={PizzaOrderForm} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
           <Route path="/testimonial" component={Testimonial} />
