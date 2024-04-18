@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
+import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
@@ -18,13 +17,12 @@ const Home = () => {
             Your Favourite Pizza Delivered Hot & Fresh
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Pizza chefs handle all the prep work: slicing, dicing, marinating. 
+            You get fresh, ready-to-cook pizza.
           </p>
-          {/* Link to the OrderPage component */}
-          <Link to="/order" className="secondary-button">
-            Order Now <FiArrowRight />
-          </Link>
+          <button className="secondary-button">
+            Order Now <FiArrowRight />{" "}
+          </button>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />

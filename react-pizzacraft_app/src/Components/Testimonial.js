@@ -1,5 +1,6 @@
 import React from "react";
-import ProfilePic from "../Assets/john-doe-image.png";
+import ProfilePic1 from "../Assets/bibek-image.png";
+import ProfilePic2 from "../Assets/rohan-image.png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -14,7 +15,7 @@ const Testimonial = () => {
         </p>
       </div>
       <div className="testimonial-section-bottom">
-        <img src={ProfilePic} alt="" />
+        <img src={ProfilePic1} alt="" />
         <p>
         "Love PizzaCraft! Easy ordering, personalized suggestions, accurate tracking, great deals. 5 stars!" 
         </p>
@@ -25,7 +26,20 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>John Doe</h2>
+        <h2>Bibek Poudel</h2>
+      </div>
+      <div className="testimonial-section-bottom">
+        <img src={ProfilePic2} alt="" />
+        <p>
+        "Love PizzaCraft! Easy ordering, personalized suggestions, accurate tracking, great deals. 4 stars!" 
+        </p>
+        <div className="testimonials-stars-container">
+          <AiFillStar />
+          <AiFillStar />
+          <AiFillStar />
+          <AiFillStar />
+        </div>
+        <h2>Rohan Biswokarma</h2>
       </div>
     </div>
   );
