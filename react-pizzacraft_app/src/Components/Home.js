@@ -3,6 +3,7 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -20,9 +21,11 @@ const Home = () => {
             Pizza chefs handle all the prep work: slicing, dicing, marinating. 
             You get fresh, ready-to-cook pizza.
           </p>
-          <button className="secondary-button">
-            Start Order Now <FiArrowRight />{" "}
-          </button>
+          <Link to="/order" style={{ textDecoration: "none" }}>
+            <button className="secondary-button">
+              Start Order Now <FiArrowRight/>
+           </button>
+          </Link>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />
