@@ -1,0 +1,44 @@
+.pizza-order-page {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .options button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .options button.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .options button:hover {
+    background-color: #0056b3;
+  }
+  
+  .secondary-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+  }

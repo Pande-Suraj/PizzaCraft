@@ -21,7 +21,7 @@ const Home = () => {
             You get fresh, ready-to-cook pizza.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Start Order Now <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">
