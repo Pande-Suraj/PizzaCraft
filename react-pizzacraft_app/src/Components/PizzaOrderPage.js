@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import './PizzaOrderPage.css';
 import { FiArrowRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
+
 
 const PizzaOrderPage = () => {
   // Define pizza options
   const [selectedBase, setSelectedBase] = useState(null);
   const [selectedIngredients, setSelectedIngredients] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
-  const [deliveryAddress, setDeliveryAddress] = useState('');
 
   // Pizza base options
   const bases = [
@@ -56,17 +57,6 @@ const PizzaOrderPage = () => {
     setTotalPrice(price);
   };
 
-  // Handle delivery address input
-  const handleAddressChange = (e) => {
-    setDeliveryAddress(e.target.value);
-  };
-
-  // Handle order submission
-  const handleSubmitOrder = () => {
-    // Handle order submission logic here
-    console.log('Order Submitted');
-  };
-
   return (
     <div className="pizza-order-page">
       <h1>Pizza Order Page</h1>
@@ -107,24 +97,16 @@ const PizzaOrderPage = () => {
       <div className="section">
         <h2>Total Price:</h2>
         <p>${totalPrice.toFixed(2)}</p>
-      </div>
 
-      {/* Delivery address input */}
-      <div className="section">
-        <h2>Delivery Address:</h2>
-        <input
-          className='orderAddress'
-          type='text'
-          placeholder='Enter your address'
-          value={deliveryAddress}
-          onChange={handleAddressChange}
-        />
       </div>
-
-      {/* Order button */}
-      <button className="secondary-button" onClick={handleSubmitOrder}>
-        Order Now <FiArrowRight />
-      </button>
+      <input className='orderAddress' type='text' placeholder='Enter your'>
+          
+      </input>
+      <Link to="/thankyou" style={{ textDecoration: "none" }}>
+            <button className="secondary-button">
+              Order Now <FiArrowRight/>
+           </button>
+          </Link>
     </div>
   );
 };

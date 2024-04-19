@@ -4,6 +4,7 @@ import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landingpage from "./Components/Landingpage";
 import PizzaOrderPage from "./Components/PizzaOrderPage";
+import ThankYou from "./Components/ThankYou";
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <Routes>
         <Route path="/" element={<Landingpage />} />
         <Route path="order" element={<PizzaOrderPage />} />
+        <Route path="/thankyou" element={<ThankYou />} />
       </Routes>
     </BrowserRouter>
   );
