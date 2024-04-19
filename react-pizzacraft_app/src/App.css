@@ -148,7 +148,7 @@ nav {
   margin-top: 2rem;
   display: flex;
 }
-.watch-video-button {
+/* .watch-video-button {
   margin-left: 2rem;
   background-color: transparent;
   outline: none;
@@ -162,11 +162,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.watch-video-button svg {
+} */
+/* .watch-video-button svg {
   font-size: 3rem;
   margin-right: 1rem;
-}
+} */
 .contact-page-wrapper h1 {
   max-width: 900px !important;
 }

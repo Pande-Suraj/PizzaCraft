@@ -5,15 +5,18 @@
     justify-content: center;
     height: 100vh;
     text-align: center;
+    background-image: url('../Assets/background.png');
+    background-size: cover;
+    background-position: center;
   }
   
   .thank-you-page h1 {
-    font-size: 32px;
+    font-size: 50px;
     color: #333;
   }
   
   .thank-you-page p {
-    font-size: 18px;
+    font-size: 28px;
     color: #666;
   }
   
